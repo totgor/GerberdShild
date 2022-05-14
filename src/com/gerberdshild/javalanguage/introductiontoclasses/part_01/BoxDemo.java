@@ -1,4 +1,4 @@
-package com.gerberdshild.javalanguage.introductiontoclasses;
+package com.gerberdshild.javalanguage.introductiontoclasses.part_01;
 
 //Пример использования класса.
 
