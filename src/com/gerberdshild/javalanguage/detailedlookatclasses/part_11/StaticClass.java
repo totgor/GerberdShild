@@ -2,7 +2,7 @@ package com.gerberdshild.javalanguage.detailedlookatclasses.part_11;
 
 //Пример использования статических static переменных, методов и блока кода.
 public class StaticClass {
-    static int a = 3; //1. как только загружается статический класс StaticClass, выполняется все статические операторы
+    static int a = 3; //1. как только загружается класс StaticClass, выполняется все статические операторы
     static int b;
 
     static void staticMethod(int x) {
