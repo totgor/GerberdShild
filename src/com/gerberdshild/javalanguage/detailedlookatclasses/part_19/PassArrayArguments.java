@@ -11,7 +11,7 @@ public class PassArrayArguments {
     }
 
     public static void main(String[] args) {
-        int[]  array1 = {21};
+        int[] array1 = {21};
         int[] array2 = {3, 65, 23, -12};
         int[] array3 = {};
 
