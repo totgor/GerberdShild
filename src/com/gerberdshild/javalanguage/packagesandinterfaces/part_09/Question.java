@@ -5,7 +5,7 @@ import java.util.Random;
 class Question implements SharedConstants {
     private Random rand = new Random(); //создаем объект для получения псевдослучайных чисел
 
-    //получить псевдослучайное число от 0 до 6
+    //получить псевдослучайное число от 0 до 5
     int ask() {
         int value = (int) (100 * rand.nextDouble()); //полчить вещественное число от 0.0 до 1.0, довести до 2х значного, преобразовать к целочисленному int-у, отбросив дробь
         if (value < 25) return NO; //25%
