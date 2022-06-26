@@ -28,18 +28,18 @@ class Stack {
 //Тестируем стек.
 public class TestStack {
     public static void main(String[] args) {
-        Stack myStack1 = new Stack();
-        Stack myStack2 = new Stack();
+        Stack myDynamicStack1 = new Stack();
+        Stack myDynamicStack2 = new Stack();
 
-        //разместить чилса в стеках myStack1 и myStack2
-        for (int i = 0; i < 10; i++) myStack1.push(i);
-        for (int i = 10; i < 20; i++) myStack2.push(i);
+        //разместить чилса в стеках myDynamicStack1 и myDynamicStack2
+        for (int i = 0; i < 10; i++) myDynamicStack1.push(i);
+        for (int i = 10; i < 20; i++) myDynamicStack2.push(i);
 
         //извлеч числа из стека
-        System.out.println("содержимое стека myStack1:");
-        for (int i = 0; i < 10; i++) System.out.print(myStack1.pop() + " ");
-        System.out.println("\nсодержимое стека myStack2:");
-        for (int i = 0; i < 10; i++) System.out.print(myStack2.pop() + " ");
+        System.out.println("содержимое стека myDynamicStack1:");
+        for (int i = 0; i < 10; i++) System.out.print(myDynamicStack1.pop() + " ");
+        System.out.println("\nсодержимое стека myDynamicStack2:");
+        for (int i = 0; i < 10; i++) System.out.print(myDynamicStack2.pop() + " ");
 
     }
 }
