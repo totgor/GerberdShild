@@ -6,6 +6,7 @@ public interface IntStack {
 
     int pop();
 
+    //Добавляя default-метод, не нарушаентся старый код. Т.к. реализация не обязательна, а для использования достаточно переопределение default-метода.
     default void clear() {
         System.out.println("Метод clear() следует переопределить в реализующем интерфейс IntStack классе.");
     }

@@ -1,5 +1,6 @@
 package com.gerberdshild.javalanguage.packagesandinterfaces.part_14;
 
+//Практичный пример исползования default метода.
 public class TestStack {
     public static void main(String[] args) {
         FixedStack fixedStack = new FixedStack(10);
@@ -20,6 +21,6 @@ public class TestStack {
         for (int i = 0; i < 20; i++)
             System.out.print(dynamicStack.pop() + " ");
         System.out.println();
-        dynamicStack.clear();
+        dynamicStack.clear(); //функция не проверяет, пуст и сейчас стек
     }
 }
