@@ -31,11 +31,11 @@ public class StackLength {
         Stack myDynamicStack2 = new Stack(9);
 
         for(int i = 0; i < 5; i++) myDynamicStack1.push(i);
-        for(int i = 0; i < 8; i++) myDynamicStack2.push(i);
+        for(int i = 0; i < 9; i++) myDynamicStack2.push(i);
 
         System.out.println("Значения myDynamicStack1: ");
         for(int i = 0; i < 5; i++) System.out.print(myDynamicStack1.pop() + " ");
         System.out.println("\nЗначения myDynamicStack2: ");
-        for(int i = 0; i < 8; i++) System.out.print(myDynamicStack2.pop() + " ");
+        for(int i = 0; i < 9; i++) System.out.print(myDynamicStack2.pop() + " ");
     }
 }

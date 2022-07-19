@@ -28,7 +28,7 @@ class Overload {
 public class OverloadDemo {
     public static void main(String[] args) {
         Overload overload = new Overload();
-        double result;
+        //double result;
         //вызывем все варианты перегружаемых методов
         overload.test();
         overload.test(10);

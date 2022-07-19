@@ -4,7 +4,7 @@ package com.gerberdshild.javalanguage.exceptionhandling.part_09;
 //Для методов не обрабатывающих свои исключения, но генерирующие их.
 //Кроме исключений относящихся к классам Error и RuntimeException, их подклассам.
 public class ThrowsDemo2 {
-    //сообщаем через throw, что метод может генерировать перечисленное исключение, но сам его не обрабатывает
+    //сообщаем через throws, что метод может генерировать перечисленное исключение, но сам его не обрабатывает
     static void throwOne() throws IllegalAccessException {
         System.out.println("В теле метода throwOne.");
         throw new IllegalAccessException("Генерируем исключение.");

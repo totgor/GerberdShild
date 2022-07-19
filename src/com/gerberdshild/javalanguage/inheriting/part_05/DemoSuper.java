@@ -73,12 +73,16 @@ public class DemoSuper {
 
         System.out.println("Объём myBoxWeight1 = " + myBoxWeight1.volume());
         System.out.println("Масса myBoxWeight1 = " + myBoxWeight1.weight + "\n");
+
         System.out.println("Объём myBoxWeight2 = " + myBoxWeight2.volume());
         System.out.println("Масса myBoxWeight2 = " + myBoxWeight2.weight + "\n");
+
         System.out.println("Объём myBoxWeight3 = " + myBoxWeight3.volume());
         System.out.println("Масса myBoxWeight3 = " + myBoxWeight3.weight + "\n");
+
         System.out.println("Объём cubeBoxWeight = " + cubeBoxWeight.volume());
         System.out.println("Масса cubeBoxWeight = " + cubeBoxWeight.weight + "\n");
+        
         System.out.println("Объём cloneBoxWeight = " + cloneBoxWeight.volume());
         System.out.println("Масса cloneBoxWeight = " + cloneBoxWeight.weight);
     }
