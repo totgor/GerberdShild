@@ -1,12 +1,12 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_10;
 
-//Синхронизированный блок и методы wait() и notify().
+//РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅРЅС‹Р№ Р±Р»РѕРє Рё РјРµС‚РѕРґС‹ wait() Рё notify().
 public class CallNotifyWaitSynchBlock {
     public static void main(String[] args) throws InterruptedException {
         synchronized (CallNotifyWaitSynchBlock.class) {
-            //notify() для текущего класса
+            //notify() РґР»СЏ С‚РµРєСѓС‰РµРіРѕ РєР»Р°СЃСЃР°
             CallNotifyWaitSynchBlock.class.notify();
-            //wait() для текущего класса через ссылку типа Object
+            //wait() РґР»СЏ С‚РµРєСѓС‰РµРіРѕ РєР»Р°СЃСЃР° С‡РµСЂРµР· СЃСЃС‹Р»РєСѓ С‚РёРїР° Object
             Object CallNotifyClass = CallNotifyWaitSynchBlock.class;
             CallNotifyClass.wait();
         }

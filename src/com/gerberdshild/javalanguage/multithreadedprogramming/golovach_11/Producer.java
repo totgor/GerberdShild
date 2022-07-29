@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_11;
 
-//Класс порождающий элементы для буфера.
+//РљР»Р°СЃСЃ РїРѕСЂР°Р¶РґР°СЋС‰РёР№ СЌР»РµРјРµРЅС‚С‹ РґР»СЏ Р±СѓС„РµСЂР°.
 public class Producer implements Runnable {
     private SingleElementBuffer buffer;
     private Integer startElem;
@@ -13,14 +13,14 @@ public class Producer implements Runnable {
     }
 
     public void run() {
-        //в вечном цикле производим элементы для буфера
+        //РІ РІРµС‡РЅРѕРј С†РёРєР»Рµ РїСЂРѕРёР·РІРѕРґРёРј СЌР»РµРјРµРЅС‚С‹ РґР»СЏ Р±СѓС„РµСЂР°
         while(true) {
             try {
                 System.out.println("producer: " + startElem);
                 buffer.put(startElem++);
                 Thread.sleep(milliSecond);
             } catch (InterruptedException e) {
-                System.out.println(Thread.currentThread().getName() + " прерван.");
+                System.out.println(Thread.currentThread().getName() + " РїСЂРµСЂРІР°РЅ.");
                 break;
             }
         }

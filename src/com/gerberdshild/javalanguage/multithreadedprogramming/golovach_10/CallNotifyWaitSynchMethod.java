@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_10;
 
-//Синхронизированный метод и методы wait() и notify().
+//РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅРЅС‹Р№ РјРµС‚РѕРґ Рё РјРµС‚РѕРґС‹ wait() Рё notify().
 public class CallNotifyWaitSynchMethod {
     public static synchronized void main(String[] args) throws InterruptedException {
         Object ref = CallNotifyWaitSynchMethod.class;

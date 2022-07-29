@@ -1,14 +1,14 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_13;
 
-//Загрузка процессора каждые 5 сек.
+//Р—Р°РіСЂСѓР·РєР° РїСЂРѕС†РµСЃСЃРѕСЂР° РєР°Р¶РґС‹Рµ 5 СЃРµРє.
 public class SawScheduler {
     public static void main(String[] args) throws InterruptedException {
         while(true) {
             System.out.println("sleep");
-            Thread.sleep(5000); //здесь поток разгружается
+            Thread.sleep(5000); //РїСЂРёРѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј РґРµР№СЃС‚РІРёРµ РїРѕС‚РѕРєР° РЅР° 5СЃРµРє
             System.out.println("wakeup");
             double d = 2.0;
-            //здесь поток занимается вычислением 50млн sin
+            //РІС‹РїРѕР»РЅСЏРµРј РіР»СѓРїСѓСЋ СЂР°Р±РѕС‚Сѓ РІС‹С‡РёСЃР»СЏСЏ 50 РјР»РЅ sin
             for (int i = 1; i < 50_000_000; i++) {
                 d = Math.sin(d);
             }

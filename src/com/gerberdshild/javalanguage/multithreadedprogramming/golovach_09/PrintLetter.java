@@ -15,7 +15,7 @@ public class PrintLetter implements Runnable {
             try {
                 Thread.sleep(milliSecond);
             } catch (InterruptedException e) {
-                System.out.println("Дочерний поток прерван.");
+                System.out.println("Р”РѕС‡РµСЂРЅРёР№ РїРѕС‚РѕРє РїСЂРµСЂРІР°РЅ.");
             }
         }
     }

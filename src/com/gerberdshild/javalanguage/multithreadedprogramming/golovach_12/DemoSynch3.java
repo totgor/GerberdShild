@@ -1,8 +1,8 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_12;
 
-//Если synchronized у блока кода части метода hello(), то оба потока залетают в метод hello().
-//Один сразу начинает выполнять блок synchronized.
-//Второй ждет 3сек и залетает в synchronized блок метода hello().
+//Р•СЃР»Рё synchronized Сѓ Р±Р»РѕРєР° РєРѕРґР° С‡Р°СЃС‚Рё РјРµС‚РѕРґР° hello(), С‚Рѕ РѕР±Р° РїРѕС‚РѕРєР° Р·Р°Р»РµС‚Р°СЋС‚ РІ РјРµС‚РѕРґ hello().
+//РћРґРёРЅ СЃСЂР°Р·Сѓ РЅР°С‡РёРЅР°РµС‚ РІС‹РїРѕР»РЅСЏС‚СЊ Р±Р»РѕРє synchronized.
+//Р’С‚РѕСЂРѕР№ Р¶РґРµС‚ 3СЃРµРє Рё Р·Р°Р»РµС‚Р°РµС‚ РІ synchronized Р±Р»РѕРє РјРµС‚РѕРґР° hello().
 public class DemoSynch3 {
     public static void main(String[] args) {
         Thread thread1;

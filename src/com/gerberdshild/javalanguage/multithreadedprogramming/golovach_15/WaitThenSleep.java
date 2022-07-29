@@ -1,8 +1,8 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_15;
 
-//Последовательное использование wait() и sleep() для потоков.
-//Каждый поток залитает в метод hello() и вызывает wait()
-//Уже sleep() проходят по очереди рандомно из множества Blocked - Set
+//РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ wait() Рё sleep() РґР»СЏ РїРѕС‚РѕРєРѕРІ.
+//РљР°Р¶РґС‹Р№ РїРѕС‚РѕРє Р·Р°Р»РёС‚Р°РµС‚ РІ РјРµС‚РѕРґ hello() Рё РІС‹Р·С‹РІР°РµС‚ wait()
+//РЈР¶Рµ sleep() РїСЂРѕС…РѕРґСЏС‚ РїРѕ РѕС‡РµСЂРµРґРё СЂР°РЅРґРѕРјРЅРѕ РёР· РјРЅРѕР¶РµСЃС‚РІР° Blocked - Set
 public class WaitThenSleep {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++){

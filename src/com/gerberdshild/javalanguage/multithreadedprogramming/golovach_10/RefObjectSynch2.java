@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_10;
 
-//Синхронизироваться можно по разным объектам и сколько угодно раз. Вызывать методы wait(), notify() можно сколько угодно раз.
+//РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РјРѕР¶РЅРѕ РїРѕ СЂР°Р·РЅС‹Рј РѕР±СЉРµРєС‚Р°Рј Рё СЃРєРѕР»СЊРєРѕ СѓРіРѕРґРЅРѕ СЂР°Р·. Р’С‹Р·С‹РІР°С‚СЊ РјРµС‚РѕРґС‹ wait(), notify() РјРѕР¶РЅРѕ СЃРєРѕР»СЊРєРѕ СѓРіРѕРґРЅРѕ СЂР°Р·.
 public class RefObjectSynch2 {
     public static void main(String[] args) throws InterruptedException {
         Object ref0 = new Object();

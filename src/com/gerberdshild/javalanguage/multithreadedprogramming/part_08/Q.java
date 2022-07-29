@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.part_08;
 
-//Ξχεπεδό - αστεπ οξ τΰκςσ.
+//ΠΡ‡ΠµΡ€ΠµΠ΄Ρ - Π±ΡƒΡ„ΠµΡ€ ΠΏΠΎ Ρ„Π°ΠΊΡ‚Ρƒ.
 public class Q {
     private int n;
 

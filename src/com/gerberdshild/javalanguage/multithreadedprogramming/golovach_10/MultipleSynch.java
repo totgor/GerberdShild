@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_10;
 
-//По одному объекту миожно засинхронизироваться много раз.
+//РџРѕ РѕРґРЅРѕРјСѓ РѕР±СЉРµРєС‚Сѓ РјРёРѕР¶РЅРѕ Р·Р°СЃРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊСЃСЏ РјРЅРѕРіРѕ СЂР°Р·.
 public class MultipleSynch {
     public static void main(String[] args) throws InterruptedException {
         Object ref = MultipleSynch.class;

@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_11;
 
-//Тест буфера и очереди.
+//РўРµСЃС‚ Р±СѓС„РµСЂР° Рё РѕС‡РµСЂРµРґРё.
 public class ProducerConsumerTest {
     public static void main(String[] args) throws InterruptedException {
         SingleElementBuffer buffer = new SingleElementBuffer();

@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_12;
 
-//Если synchronized отсутствует, то оба потока одновременно залетают в метод.
+//Р•СЃР»Рё synchronized РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚, С‚Рѕ РѕР±Р° РїРѕС‚РѕРєР° РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ Р·Р°Р»РµС‚Р°СЋС‚ РІ РјРµС‚РѕРґ.
 public class DemoSynch {
     public static void main(String[] args) {
         Thread thread1;

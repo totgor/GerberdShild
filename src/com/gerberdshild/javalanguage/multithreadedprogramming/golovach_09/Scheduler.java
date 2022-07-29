@@ -15,14 +15,14 @@ public class Scheduler extends Thread {
                 printLetter1.join();
                 printLetter2.join();
             } catch (InterruptedException e) {
-                System.out.println("Дочерний поток прерван.");
+                System.out.println("Р”РѕС‡РµСЂРЅРёР№ РїРѕС‚РѕРє РїСЂРµСЂРІР°РЅ.");
             }
             printLetter3 = new Thread(new PrintLetter("  C", 100));
             printLetter3.start();
             try {
                 printLetter3.join();
             } catch (InterruptedException e) {
-                System.out.println("Дочерний поток прерван.");
+                System.out.println("Р”РѕС‡РµСЂРЅРёР№ РїРѕС‚РѕРє РїСЂРµСЂРІР°РЅ.");
             }
         }
     }

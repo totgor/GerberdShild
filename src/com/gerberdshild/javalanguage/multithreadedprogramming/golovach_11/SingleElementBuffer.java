@@ -1,26 +1,26 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_11;
 
-//Буфер с одной ячейкой для Integer.
+//Р‘СѓС„РµСЂ СЃ РѕРґРЅРѕР№ СЏС‡РµР№РєРѕР№ РґР»СЏ Integer.
 public class SingleElementBuffer {
     private Integer elem = null;
 
     public synchronized void put(Integer elem) throws InterruptedException {
-        //Если предидущий элемент из буфера не забрали, то ждём на методе put()
+        //Р•СЃР»Рё РїСЂРµРґРёРґСѓС‰РёР№ СЌР»РµРјРµРЅС‚ РёР· Р±СѓС„РµСЂР° РЅРµ Р·Р°Р±СЂР°Р»Рё, С‚Рѕ Р¶РґС‘Рј РЅР° РјРµС‚РѕРґРµ put()
         while(this.elem != null) {
             this.wait();
         }
         this.elem = elem;
-        this.notifyAll(); //уведомить, что элемент положили.
+        this.notifyAll(); //СѓРІРµРґРѕРјРёС‚СЊ, С‡С‚Рѕ СЌР»РµРјРµРЅС‚ РїРѕР»РѕР¶РёР»Рё.
     }
 
     public synchronized Integer get() throws InterruptedException {
-        //Пока элемент отсутствует в буфере ждём на методе get().
+        //РџРѕРєР° СЌР»РµРјРµРЅС‚ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ Р±СѓС„РµСЂРµ Р¶РґС‘Рј РЅР° РјРµС‚РѕРґРµ get().
         while(elem == null) {
             this.wait();
         }
         Integer result = elem;
         elem = null;
-        this.notifyAll(); //уведомить, что элемент забрали.
+        this.notifyAll(); //СѓРІРµРґРѕРјРёС‚СЊ, С‡С‚Рѕ СЌР»РµРјРµРЅС‚ Р·Р°Р±СЂР°Р»Рё.
         return result;
     }
 }

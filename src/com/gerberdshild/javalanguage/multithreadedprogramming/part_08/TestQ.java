@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.part_08;
 
-//Неправиьлная реализация поставщика и потребителя.
+//РќРµРїСЂР°РІРёР»СЊРЅР°СЏ СЂРµР°Р»РёР·Р°С†РёСЏ РїРѕСЃС‚Р°РІС‰РёРє Рё РїРѕС‚СЂРµР±РёС‚РµР»СЏ.
 public class TestQ {
     public static void main(String[] args) {
         Q q = new Q();

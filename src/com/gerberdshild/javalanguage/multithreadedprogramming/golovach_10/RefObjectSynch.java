@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_10;
 
-//Синхронизация происходит по объекту не по ссылке.
+//РЎРёРЅС…СЂРѕРЅРёР·Р°С†РёСЏ РїСЂРѕРёСЃС…РѕРґРёС‚ РїРѕ РѕР±СЉРµРєС‚Сѓ РЅРµ РїРѕ СЃСЃС‹Р»РєРµ.
 public class RefObjectSynch {
     public static void main(String[] args) throws InterruptedException {
         Object ref0 = new Object();

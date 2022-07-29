@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.golovach_11;
 
-//Потребитель производимых элементов из буфера.
+//РљР»Р°СЃСЃ РїРѕС‚СЂРµР±Р»СЏСЋС‰РёР№ СЌР»РµРјРµРЅС‚С‹ РёР· Р±СѓС„РµСЂР°.
 public class Consumer implements Runnable {
     private SingleElementBuffer buffer;
     private Integer elem;
@@ -15,7 +15,7 @@ public class Consumer implements Runnable {
                 elem = buffer.get();
                 System.out.println("consumer: " + elem);
             } catch (InterruptedException e) {
-                System.out.println(Thread.currentThread().getName() + "прерван.");
+                System.out.println(Thread.currentThread().getName() + "РїСЂРµСЂРІР°РЅ.");
                 break;
             }
         }
