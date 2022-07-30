@@ -1,7 +1,5 @@
 package com.gerberdshild.javalanguage.multithreadedprogramming.part_09;
 
-import java.nio.channels.NotYetBoundException;
-
 //Класс буфер
 public class Q {
     int n = 0;
