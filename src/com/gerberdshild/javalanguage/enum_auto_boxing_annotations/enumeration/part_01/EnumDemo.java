@@ -1,4 +1,4 @@
-package com.gerberdshild.javalanguage.enum_auto_boxing_annotations.enumeration;
+package com.gerberdshild.javalanguage.enum_auto_boxing_annotations.enumeration.part_01;
 
 //Пример перечисления enum.
 enum Apple {
