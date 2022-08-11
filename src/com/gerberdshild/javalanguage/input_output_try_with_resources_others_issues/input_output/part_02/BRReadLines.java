@@ -7,6 +7,8 @@ public class BRReadLines {
     public static void main(String[] args) throws IOException {
         String str;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Введите стрки теста.");
+        System.out.println("Введите exit для завершения.");
         do {
             str = br.readLine(); //читаем построчно
             System.out.println(str); 
