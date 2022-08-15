@@ -2,8 +2,6 @@ package com.gerberdshild.javalanguage.input_output_try_with_resources_others_iss
 
 import java.io.*;
 
-import javax.annotation.processing.SupportedOptions;
-
 //Весь код открывающий и работающий с файлом заключен в блок try. Заркрывается файл в блоке finally.
 public class ShowFile3 {
     public static void main(String[] args) {
