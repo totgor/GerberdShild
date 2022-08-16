@@ -1,8 +1,6 @@
 package com.gerberdshild.javalanguage.input_output_try_with_resources_others_issues.input_output.part_06;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 //Пример вывода содержимого файла в консоль.
 public class ShowFile {
