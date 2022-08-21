@@ -15,7 +15,7 @@ class NonGeneric {
     }
 
     // показать тип объекта object
-    void showObject() {
+    void showType() {
         System.out.println("Объект object имеет тип: " + object.getClass().getName());
     }
 }
@@ -25,14 +25,14 @@ public class NonGenericDemo {
         // Создать объект типа NonGeneric, сохранить в нём объект типа Integer.
         // Выполняется автоупаковка.
         NonGeneric intObj = new NonGeneric(777);
-        // Показать тип данных, хранящийся в переменной object
-        intObj.showObject();
+        // Показать тип данных, хранящийся в переменной object объекта intObj
+        intObj.showType();
         // Получить значение переменной intObj, теперь требуется приведение типов
         int value = (Integer) intObj.getObject();
         System.out.println("Значение value = " + value);
 
         NonGeneric strObj = new NonGeneric("Тестовая строка для класса не обобщения.");
-        strObj.showObject();
+        strObj.showType();
         String str = (String) strObj.getObject();
         System.out.println("Значение str = " + str);
 
