@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.generics.part_03;
 
-//Пример обобщение с несколькими параметризированными типами
+//Пример обобщение с несколькими параметризированными типами.
 class ThreeGeneric<T, V, X> {
     T obj1;
     V obj2;
@@ -14,9 +14,9 @@ class ThreeGeneric<T, V, X> {
 
     //показать типы T, V, X.
     void showTypes() {
-        System.out.println("Значение типа T: " + obj1.getClass().getName());
-        System.out.println("Значение типа V: " + obj2.getClass().getName());
-        System.out.println("Значение типа X: " + obj3.getClass().getName());
+        System.out.println("Значение типа T объекта obj1: " + obj1.getClass().getName());
+        System.out.println("Значение типа V объекта obj2: " + obj2.getClass().getName());
+        System.out.println("Значение типа X объекта obj3: " + obj3.getClass().getName());
     }
 
     T getObj1() {
@@ -38,11 +38,11 @@ public class ThreeGenericDemo {
         ThreeGeneric<Integer, String, Double> obj = new ThreeGeneric<Integer, String, Double>(777,"Тестовое обобщение.", 23.412);
         obj.showTypes();
         //Получить и показать значения.
-        int value = (Integer) obj.getObj1();
+        int value = obj.getObj1();
         System.out.println("Значение value = " + value);
-        String str = (String) obj.getObj2();
+        String str = obj.getObj2();
         System.out.println("Значение str = " + str);
-        Double d = (Double) obj.getObj3();
+        Double d = obj.getObj3();
         System.out.println("Значение d = " + d);
     }
 
