@@ -14,7 +14,7 @@ class Stats<T extends Number> {
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i].doubleValue();
         }
-        return sum;
+        return sum / nums.length;
     }
 
     boolean sameAvg(Stats<?> obj) {
