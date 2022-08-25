@@ -1,6 +1,6 @@
 package com.gerberdshild.javalanguage.generics.part_06;
 
-//Двухмерный координаты.
+//Двухмерные координаты.
 class TwoD {
     int x;
     int y;
@@ -82,8 +82,8 @@ public class BoundedWildCard {
                                 new FourD(21, 12, 34, 67),
                                 new FourD(1, 1, 0, 0)};
         
-        Coords<TwoD> twoD_obj = new Coords(twoD_array);
-        Coords<FourD> fourD_obj = new Coords(fourD_array);
+        Coords<TwoD> twoD_obj = new Coords<TwoD>(twoD_array);
+        Coords<FourD> fourD_obj = new Coords<FourD>(fourD_array);
 
         System.out.println("Содержимое объекта twoD_obj:");
         showXY(twoD_obj);
