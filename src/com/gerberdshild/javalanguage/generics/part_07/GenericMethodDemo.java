@@ -18,6 +18,9 @@ public class GenericMethodDemo {
         if(isIn(3, int_array)) System.out.println("3 является элементом массива int_array.");
         if(!isIn(7, int_array)) System.out.println("7 не является элементом массива int_array.");
 
+        //Достучаться до метода isIn можно и указав аругменты типов.
+        if(GenericMethodDemo.<Integer, Integer>isIn(5, int_array)) System.out.println("5 является элементом массива int_array.");
+
         if(isIn("четыре", string_array)) System.out.println("\"четыре\" является элементом массива string_array.");
         if(isIn("семь", string_array)) System.out.println("\"семь\" не является элементом массива string_array.");
 
