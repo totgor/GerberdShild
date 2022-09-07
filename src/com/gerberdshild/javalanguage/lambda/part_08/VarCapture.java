@@ -26,7 +26,7 @@ public class VarCapture {
             System.out.println("Значение static_value = " + static_value);            
 
             // Т.к. local_number не изменяется, то такое применение local_number допустимо.
-            int value = local_number + static_value;
+            int value = local_number + static_value + n;
             return value;
             
             // Потпытка изменить захваченную переменную не допустима, теоретически она final.
