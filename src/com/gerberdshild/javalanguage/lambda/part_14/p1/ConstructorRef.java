@@ -1,4 +1,4 @@
-package com.gerberdshild.javalanguage.lambda.part_14;
+package com.gerberdshild.javalanguage.lambda.part_14.p1;
 
 // Пример применения ссылки на конструктор.
 
