@@ -56,7 +56,7 @@ public class ClassFactory {
         System.out.println("Значение value в объекте obj1 = " + obj1.getValue());
 
         MyFunction<MyClass2, String> refMyClass2 = MyClass2::new;
-        MyClass2 obj2 = refMyClass2.function("Лямбда-выражение.");
+        MyClass2 obj2 = classFactory(refMyClass2, "Лямбда-выражение.");
         System.out.println("Значение str в объекте obj2 = " + obj2.getStr());
 
         // Если сократить запись.
